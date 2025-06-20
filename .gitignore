@@ -1,0 +1,9 @@
+# Ignore common video file extensions
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.webm
+
+

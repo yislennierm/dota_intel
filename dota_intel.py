@@ -1,4 +1,4 @@
-from heroes import fetch_hero_stats
+from heroes import fetch_hero
 from setup import setup_heroes_database
 def main_menu():
     while True:
@@ -11,7 +11,7 @@ def main_menu():
         if option == "1":
             setup_heroes_database()
         elif option == "2":
-            fetch_hero_stats()
+            fetch_hero()
         elif option == "0":
             break
         else:
